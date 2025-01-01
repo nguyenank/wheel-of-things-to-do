@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Wheel of Things to Do</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="icon" href="data:image/x-icon;," type="image/x-icon">
+  <link rel="stylesheet" href="./index.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/spin-wheel@5.0.2/dist/spin-wheel-iife.js"></script>
+  <script src="things.js"></script>
+  <script src="js/results.js"></script>
+  <script src="js/wheel.js"></script>
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+  <div class="gui-wrapper">
+  <div class="download-wrapper"><a> Results
+  </a>
+  </div>
+  <div class="results-wrapper">
+    <div class="results-text">PLACEHOLDER</div>
+    <div class="results-button-wrapper">
+      <button id="didnt">Didn't</button>
+      <button id="did">Did</button>
+      <button id="couldnt">Couldn't</button>
+      </div>
+  </div>
+  </div>
+  <div class="wheel-wrapper"></div>
+  <div class="gui-wrapper">
+    <div class="button-wrapper">
+    <button id="spin">S P I N</button>
+    </div>
+  </div>
+</body>
+
+</html>
